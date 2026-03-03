@@ -45,6 +45,12 @@ menu "Xiaomi board selection"
 		help
 		  Support for Redmi 5 plus / Redmi note 5
 
+	config MACH_XIAOMI_OXYGEN
+		bool "Xiaomi oxygen board"
+		select MACH_XIAOMI_MSM8953
+		help
+		  Support for Mi Max 2
+
 	config MACH_XIAOMI_YSL
 		bool "Xiaomi ysl board"
 		select MACH_XIAOMI_MSM8953
